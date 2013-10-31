@@ -148,11 +148,15 @@
     <None Include="XPlatformCloudKit.Win8_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Beige.jpg" />
     <Content Include="Assets\BrownBkgd.png" />
+    <Content Include="Assets\Gray.jpg" />
     <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\Mint.jpg" />
     <Content Include="Assets\SmallLogo.png" />
     <Content Include="Assets\SplashScreen.png" />
     <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\White.jpg" />
     <Content Include="Assets\WideLogo.png" />
     <Content Include="Common\ReadMe.txt" />
     <Content Include="LocalItemsFile.xml">

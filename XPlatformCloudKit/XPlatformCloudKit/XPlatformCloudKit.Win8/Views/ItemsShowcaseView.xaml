@@ -38,7 +38,7 @@
     -->
     <Grid Style="{StaticResource LayoutRootStyle}">
         <Grid.Background>
-            <ImageBrush ImageSource="ms-appx:///Assets/BrownBkgd.png"/>
+            <ImageBrush ImageSource="ms-appx:///Assets/Beige.jpg"/>
         </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="140"/>
