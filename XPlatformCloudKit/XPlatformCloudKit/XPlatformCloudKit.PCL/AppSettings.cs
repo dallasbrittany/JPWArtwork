@@ -107,7 +107,7 @@ namespace XPlatformCloudKit
 
         //Determines whether hyperlinks with target="_blank" are rewritten to target="_self"
         //When enabled, hyperlinks will not open in a new tab
-        public const bool DisableOpeningHyperLinksInNewTab = true;
+        public const bool DisableOpeningHyperLinksInNewTab = false;
         #endregion
 
     }
