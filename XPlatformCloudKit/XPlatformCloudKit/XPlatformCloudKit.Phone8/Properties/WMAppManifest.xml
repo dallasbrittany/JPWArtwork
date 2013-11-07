@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{eb23386f-8607-4836-9670-a7fb49c4d42c}" Title="JPW Artwork" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Dallas Kidd" Description="Jared Paul Wilson is an artist in Lake Jackson, Texas, and he uses a variety of mediums, including Prismacolor pencils. He has published a children's book, as well." Publisher="Dallas Kidd" PublisherID="{1c10a423-38f3-4cdc-adb9-8f93a2b99ba9}">
+  <App xmlns="" ProductID="{eb23386f-8607-4836-9670-a7fb49c4d42c}" Title="Art by JPW" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Amaryllis" Description="Jared Paul Wilson is an artist in Lake Jackson, Texas, and he uses a variety of mediums, including Prismacolor pencils. He has published a children's book, as well." Publisher="Amaryllis" PublisherID="{1c10a423-38f3-4cdc-adb9-8f93a2b99ba9}">
     <IconPath IsRelative="true" IsResource="false">StoreLogo.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
@@ -20,7 +20,7 @@
           <SmallImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileSmall.png</SmallImageURI>
           <Count>0</Count>
           <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileMedium.png</BackgroundImageURI>
-          <Title>JPW Artwork</Title>
+          <Title>Art by JPW</Title>
           <BackContent>
           </BackContent>
           <BackBackgroundImageURI>
