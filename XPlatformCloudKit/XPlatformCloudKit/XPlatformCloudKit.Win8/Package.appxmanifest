@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="e43687af-7f77-410e-bea5-7a333cea2b7f" Publisher="CN=pdecarlo" Version="1.0.0.0" />
+  <Identity Name="39938dallasbrittany.ArtByJaredPaulWilson" Publisher="CN=25F2C062-55A7-4FC2-914B-148C2A711D3F" Version="1.0.0.0" />
   <Properties>
-    <DisplayName>XPlatformCloudKit.Win8</DisplayName>
-    <PublisherDisplayName>pdecarlo</PublisherDisplayName>
+    <DisplayName>Art By Jared Paul Wilson</DisplayName>
+    <PublisherDisplayName>Amaryllis</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Prerequisites>
@@ -15,8 +15,8 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="XPlatformCloudKit.Win8.App">
-      <VisualElements DisplayName="XPlatformCloudKit.Win8" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="XPlatformCloudKit.Win8" ForegroundText="light" BackgroundColor="#464646">
-        <DefaultTile ShowName="allLogos" WideLogo="Assets\WideLogo.png" />
+      <VisualElements DisplayName="Art By Jared Paul Wilson" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Art by JPW" ForegroundText="dark" BackgroundColor="#FCF1B1">
+        <DefaultTile WideLogo="Assets\WideLogo.png" />
         <SplashScreen Image="Assets\SplashScreen.png" />
         <InitialRotationPreference>
           <Rotation Preference="landscape" />

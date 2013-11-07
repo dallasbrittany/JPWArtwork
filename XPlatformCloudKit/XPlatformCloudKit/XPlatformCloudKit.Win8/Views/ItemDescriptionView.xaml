@@ -28,7 +28,7 @@
     <Grid
         Style="{StaticResource LayoutRootStyle}"
         DataContext="{Binding SelectedItem}"
-        d:DataContext="{Binding SelectedItem, Source={d:DesignInstance Type=sampleData:ItemDescriptionSampleData, IsDesignTimeCreatable=True}}">
+        d:DataContext="{Binding SelectedItem, Source={d:DesignInstance Type=sampleData:ItemDescriptionSampleData, IsDesignTimeCreatable=True}}" Background="#FFFCF1B1">
       	<Grid.ColumnDefinitions>
     		<ColumnDefinition Width="50*"/>
     		<ColumnDefinition Width="50*"/>
