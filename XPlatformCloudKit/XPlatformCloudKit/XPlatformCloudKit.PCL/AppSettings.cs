@@ -95,11 +95,11 @@ namespace XPlatformCloudKit
         #region Advanced ItemDescriptionView / Webview Options for Windows 8 and Windows Phone projects
         //Determines background color of WebView Control used behind Description in ItemDescriptionView.xaml.cs
         //Set to "Auto" to determine based on theme background or override using hex color string i.e. "#FFFFFF" for white, "#000000" for black
-        public const string BackgroundColorOfDescription = "#000000"; //#FCF1B1 for beige
+        public const string BackgroundColorOfDescription = "Auto"; //#FCF1B1 for beige
 
         //Determines Font color of WebView Control used to display Description in ItemDescriptionView.xaml.cs
         //Set to "Auto" to determine based on theme background or override using hex color string i.e. "#FFFFFF" for white, "#000000" for black
-        public const string FontColorOfDescription = "#FFFFFF";  // had this as Auto but wouldn't work right for phone
+        public const string FontColorOfDescription = "Auto";
 
         //Determines whether hyperlinks can be clicked in ItemDescriptionView.xaml for both Windows 8 and Windows Phone 8 projects
         //Sometimes, store may fail apps which contain hyperlinks that navigate improperly when clicked, this disables them
