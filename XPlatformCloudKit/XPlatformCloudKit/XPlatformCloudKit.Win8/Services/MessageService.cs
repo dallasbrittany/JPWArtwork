@@ -78,6 +78,7 @@ namespace XPlatformCloudKit.Services
                 var result = MessageBox.Show(content, title, MessageBoxButton.OK);
             }));
         }
+
 #endif
 
     }

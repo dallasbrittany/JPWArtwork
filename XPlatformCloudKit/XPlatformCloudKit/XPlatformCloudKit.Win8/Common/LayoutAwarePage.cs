@@ -333,6 +333,9 @@ namespace XPlatformCloudKit.Common
         ///// </summary>
         ///// <param name="e">Event data that describes how this page was reached.  The Parameter
         ///// property provides the group to be displayed.</param>
+
+
+
         //protected override void OnNavigatedTo(NavigationEventArgs e)
         //{
         //    // Returning to a cached page through navigation shouldn't trigger state loading

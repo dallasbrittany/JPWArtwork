@@ -150,6 +150,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\BrownBkgd.png" />
+    <Content Include="Assets\fb.png" />
     <Content Include="Assets\Gray.jpg" />
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\Mint.jpg" />

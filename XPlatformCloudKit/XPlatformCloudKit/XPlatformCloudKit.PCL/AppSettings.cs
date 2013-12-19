@@ -16,6 +16,7 @@ namespace XPlatformCloudKit
     /// </summary>
     public static class AppSettings
     {
+
         #region Global Options
         //The name of your applicaion, this value appears at the top of your app
         public const string ApplicationName = "Art by Jared Paul Wilson";
@@ -80,6 +81,9 @@ namespace XPlatformCloudKit
         //Url to your privacy policy - default value is "http://www.freeprivacypolicy.org/generic.php"
         //Note: This is REQUIRED for certification in the Windows 8 store
         public const string PrivacyPolicyUrl = "http://www.freeprivacypolicy.org/generic.php";
+
+        public const bool EnableParsingPhoneNumbersPhone8 = true;
+
         #endregion
 
         #region Youtube Video Link Options
