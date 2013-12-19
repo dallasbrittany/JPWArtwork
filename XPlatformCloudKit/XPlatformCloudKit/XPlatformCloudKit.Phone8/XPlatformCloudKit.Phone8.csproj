@@ -120,8 +120,12 @@
     <Compile Include="Bootstrap\JsonPluginBootstrap.cs" />
     <Compile Include="Converters\BooleanToVisibilityConverter.cs" />
     <Compile Include="DebugTrace.cs" />
+    <Compile Include="Helpers\LocalStorageHelper.cs" />
     <Compile Include="LocalizedStrings.cs" />
     <Compile Include="Setup.cs" />
+    <Compile Include="SplashScreenImage.xaml.cs">
+      <DependentUpon>SplashScreenImage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ItemDescriptionView.xaml.cs">
       <DependentUpon>ItemDescriptionView.xaml</DependentUpon>
     </Compile>
@@ -140,6 +144,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
+    <Page Include="SplashScreenImage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\ItemDescriptionView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -168,6 +176,7 @@
     <Content Include="Assets\ApplicationIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Icons\Locker.png" />
     <Content Include="Assets\Icons\Next.png" />
     <Content Include="Assets\Icons\Previous.png" />
     <Content Include="Assets\Icons\Reload.png" />
